@@ -4,7 +4,6 @@ import styled from "styled-components";
 import Header from "../Components/Header";
 import { gql } from "apollo-boost";
 import { useQuery } from "react-apollo-hooks";
-import { Logo } from "../Components/Icons";
 import Loader from "../Components/Loader";
 
 const Wrapper = styled.div`
